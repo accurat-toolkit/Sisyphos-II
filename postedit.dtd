@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT doc (s+)>
+<!ATTLIST doc evaluator CDATA #REQUIRED>
+<!ELEMENT s (src, transl, postedit, cmt)>
+<!ATTLIST s id CDATA #REQUIRED
+		 	srcLng CDATA #REQUIRED
+		 	translLng CDATA #REQUIRED
+		 	time CDATA #REQUIRED
+>
+<!ELEMENT src (#PCDATA)>
+<!ELEMENT transl (#PCDATA)>
+<!ELEMENT postedit (#PCDATA)>
+<!ELEMENT cmt (#PCDATA)>
+
+
